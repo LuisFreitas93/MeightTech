@@ -9,16 +9,18 @@ Meight tracks market prices for road freight services such as full-truck-load, l
 
 Objective:
 
-The project involves designing and building a data pipeline that processes and transforms historical road freight market prices. The system should enable analytics output filtered by pickup_region, delivery_region, season, and service_type, providing insights based on a substantial volume of records.
+The project involves designing and building a data pipeline that processes and transforms historical road freight market prices. The system should enable analytics output filtered by pickup_region, delivery_region, trailer_type, and service_type, providing insights based on a substantial volume of records.
 
 Challenge Steps:
 
 	1.	Data Pipeline Scheduling and Automation:
-	•	Objective: Automate the ETL pipeline using tools like Apache Airflow to ensure data is processed and updated on a regular schedule (daily or weekly).
+		Objective: ETL pipeline to extract data from a mock API, clen the data and load it to a database. Automate the ETL pipeline using tools like Apache Airflow to ensure data is processed and updated on a regular schedule.
+  
 	2.	Analytics Integration:
-	•	Objective: Generate analytics that return the 25th percentile, 75th percentile, and average of the user-selected input data.
+		Objective: Generate analytics that return the 25th percentile, 75th percentile, and average of the user-selected input data.
+  
 	3.	Data Visualization and Reporting (in Progress):
-	•	Objective: Provide visualizations for historical price trends by region and service type. Include forecasted prices and their comparison with actual prices, moving averages, price fluctuations, and market trends.
+		Objective: Provide visualizations for historical price trends by region and service type. Include forecasted prices and their comparison with actual prices, moving averages, price fluctuations, and market trends.
 
 Setup and Installation
 
